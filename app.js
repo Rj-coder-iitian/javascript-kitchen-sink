@@ -10,15 +10,15 @@ function checkAge(name,age) {
         alert("Sorry " + name + ", you aren't old enough to view this page!");
     }
 }
-checkAge(Charles,21);
-checkAge(Abby,27);
-checkAge(James,18);
-checkAge(John,17);
+checkAge('Charles',21);
+checkAge('Abby',27);
+checkAge('James',18);
+checkAge('John',17);
 
 var favVegi = ['Potato','Tomato','Onion'];
 
-for(let i of favVegi) {
-    console.log(i);
+for(let i=0;i<favVegi.length;i++) {
+    console.log(favVegi[i]);
 }
 
 let pet = {
